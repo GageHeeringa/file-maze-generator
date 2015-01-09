@@ -10,7 +10,7 @@ See Example.jpg and FileMazeGenerator.cc for more information.
 Example run with Make:
 make
 Mazes\mazeExample\
-C:\Users\Gage Heeringa\Desktop\C++_Workspace\Windows\Mazes\anotherExample
+C:\Users\MY USERNAME\Desktop\C++_Workspace\Windows\file-maze-generator\Mazes\anotherExample
 a place\    //(creates directory in same folder as executable)
 exit
 make clean
