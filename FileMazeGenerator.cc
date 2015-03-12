@@ -9,7 +9,7 @@
 /* Example run with Make:
    make
    Mazes\mazeExample\
-   C:\Users\MY USERNAME\Desktop\C++_Workspace\Windows\file-maze-generator\Mazes\anotherExample
+   C:\Users\Gage Heeringa\Desktop\C++_Workspace\Windows\Mazes\anotherExample
    a place\    //(creates directory in same folder as executable)
    exit
    make clean
@@ -50,12 +50,6 @@ void generateMaze(const char* dir);
 	
 /** MAIN */
 int main(){
-	//do not permit large maze dimensions
-	if(MAZE_LENGTH >= 50 || MAZE_WIDTH >= 50){
-		cout << '\a' << "ERROR: Please define reasonable MAZE_LENGTH and MAZE_WIDTH values in MACROS.h\n";
-		return 1;
-	}
-	
 	cout << "\nStarted File Maze Generator...  (enter \"exit\" or \"e\" to terminate)\n";
 		
 	//listOfMazes.txt stores directories containing generated mazes	
